@@ -1,0 +1,16 @@
+#docker-compose.yml
+version: '3'
+
+services:
+  node1:
+    image: docker-image-blockchain:APIv3
+    ports:
+      - "8080:8080" # Replace with desired port
+    environment:
+      NODE_ID: 1
+    networks:
+      - blockchain-net
+
+networks:
+  blockchain-net: 
+    driver: bridge
