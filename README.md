@@ -1,2 +1,2 @@
-# blockpass
+# Blockpass
 Zero Knowledge Authentication 
